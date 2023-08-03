@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="levelTitle">Press A Key to Start</h1>
+
+  <div class="buttons-container">
+    <button id="normalDifficulty" class="difficulty-button">Normal</button>
+    <button id="hardDifficulty" class="difficulty-button">Hard</button>
+    <button id="veryHardDifficulty" class="difficulty-button">Very Hard</button>
+  </div>
+
+  <div class="flex-container">
+    <div class="container">
+      <div class="row">
+        <div type="button" id="greenNormal" class="btn green"></div>
+        <div type="button" id="redNormal" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellowNormal" class="btn yellow"></div>
+        <div type="button" id="blueNormal" class="btn blue"></div>
+      </div>
+    </div>
+
+    <div id="hardBlock" class="container" style="display: none;">
+      <div class="row">
+        <div type="button" id="greenHard" class="btn green"></div>
+        <div type="button" id="redHard" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellowHard" class="btn yellow"></div>
+        <div type="button" id="blueHard" class="btn blue"></div>
+      </div>
+    </div>
+
+    <div id="veryHardBlock" class="container" style="display: none;">
+      <div class="row">
+        <div type="button" id="greenVeryHard" class="btn green"></div>
+        <div type="button" id="redVeryHard" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellowVeryHard" class="btn yellow"></div>
+        <div type="button" id="blueVeryHard" class="btn blue"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>

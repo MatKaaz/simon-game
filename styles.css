@@ -1,0 +1,121 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#levelTitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  2% 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: inline-block;
+  width: 500px;
+  /* margin: auto; */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px 100px;
+}
+
+.buttons-container {
+  margin: 2%;
+}
+
+.btn {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.green {
+  background-color: rgb(51, 230, 51);
+  border-top-left-radius: 100%;
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+}
+
+.blue {
+  background-color: rgb(34, 248, 237);
+  border-bottom-right-radius: 100%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.difficulty-button {
+  background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+  font-family: 'VT323', monospace;
+}
+.difficulty-button:hover {
+  background: #BCBCBC;
+}
+
+.difficulty-button:active {
+	position:relative;
+	top:3px;
+}
+
+#normalDifficulty {
+  background: #005800;
+}
+#normalDifficulty:hover {
+	background-color:#5cbf2a;
+}
+
+#hardDifficulty {
+	background:#ffaa22;
+}
+#hardDifficulty:hover {
+	background-color:#ffec64;
+}
+
+#veryHardDifficulty {
+  background: #732e29;
+}
+#veryHardDifficulty:hover {
+	background-color:#d02718;
+}
+
+
+
